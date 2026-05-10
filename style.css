@@ -64,6 +64,21 @@
   margin-left: 500px;
   margin-top: -300px;
 }
+.section2
+{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 0.2px grey;
+  margin-top: 100px;
+}
+.p1
+{
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
 
 
 
@@ -133,6 +148,18 @@ width: 100%;
     width: 40%;
     margin-left: 170px;
     margin-top: 70px;
+  }
+  .section2
+  {
+    display: block;
+    border-bottom: solid 0px;
+    width: 100%;
+  }
+  .p1
+  {
+    width: 90%;
+    padding: 20px;
+
   }
 
 }
